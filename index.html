@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noir Ethos | Avant-Garde Ethnic Wear</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">NOIR.ETHOS</div>
+        <nav class="nav-links">
+            <a href="#collections">Gallery</a>
+            <a href="#about">Philosophy</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="nav-actions">
+            <div class="cart-icon" id="cart-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+                <span class="cart-count">0</span>
+            </div>
+            <button class="menu-btn" aria-label="Menu" id="menu-btn">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-bg">
+                <img src="images/hero-saree.png" alt="Avant Garde Saree" class="hero-img">
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="hero-content fade-up">
+                <h1>Redefining<br><span>Heritage.</span></h1>
+                <p>Minimalist ethnic luxury for the bold.</p>
+                <div class="hero-buttons">
+                    <a href="#collections" class="btn btn-primary">The Archive</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Collections -->
+        <section id="collections" class="section-padding collections">
+            <div class="section-title fade-up">
+                <h2>The Archive</h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="grid-container">
+                <!-- Card 1 -->
+                <div class="product-card fade-up">
+                    <div class="card-image">
+                        <img src="images/saree1.png" alt="Burgundy Silk">
+                        <div class="card-overlay">
+                            <button class="btn-quickview">Quick View</button>
+                            <button class="btn-add-cart" data-id="1" data-name="Crimson Silk" data-price="240" data-img="images/saree1.png">Select Options</button>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <h3>Crimson Silk</h3>
+                        <p class="price">$240.00</p>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="product-card fade-up" style="transition-delay: 0.1s">
+                    <div class="card-image">
+                        <img src="images/saree2.png" alt="Emerald Velvet">
+                        <div class="card-overlay">
+                            <button class="btn-quickview">Quick View</button>
+                            <button class="btn-add-cart" data-id="2" data-name="Emerald Velvet" data-price="310" data-img="images/saree2.png">Select Options</button>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <h3>Emerald Velvet</h3>
+                        <p class="price">$310.00</p>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="product-card fade-up" style="transition-delay: 0.2s">
+                    <div class="card-image">
+                        <img src="images/saree3.png" alt="Ivory Organza">
+                        <div class="card-overlay">
+                            <button class="btn-quickview">Quick View</button>
+                            <button class="btn-add-cart" data-id="3" data-name="Ivory Organza" data-price="195" data-img="images/saree3.png">Select Options</button>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <h3>Ivory Organza</h3>
+                        <p class="price">$195.00</p>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="product-card fade-up" style="transition-delay: 0.3s">
+                    <div class="card-image">
+                        <img src="images/saree4.png" alt="Royal Blue Georgette">
+                        <div class="card-overlay">
+                            <button class="btn-quickview">Quick View</button>
+                            <button class="btn-add-cart" data-id="4" data-name="Azure Georgette" data-price="210" data-img="images/saree4.png">Select Options</button>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <h3>Azure Georgette</h3>
+                        <p class="price">$210.00</p>
+                    </div>
+                </div>
+                <!-- Card 5 -->
+                <div class="product-card fade-up" style="transition-delay: 0.4s">
+                    <div class="card-image">
+                        <img src="images/saree5.png" alt="Rose Gold Sequin">
+                        <div class="card-overlay">
+                            <button class="btn-quickview">Quick View</button>
+                            <button class="btn-add-cart" data-id="5" data-name="Rose Gold Metallic" data-price="350" data-img="images/saree5.png">Select Options</button>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <h3>Rose Gold Metallic</h3>
+                        <p class="price">$350.00</p>
+                    </div>
+                </div>
+                <!-- Card 6 -->
+                <div class="product-card fade-up" style="transition-delay: 0.5s">
+                    <div class="card-image">
+                        <img src="images/saree6.png" alt="Lavender Chiffon">
+                        <div class="card-overlay">
+                            <button class="btn-quickview">Quick View</button>
+                            <button class="btn-add-cart" data-id="6" data-name="Amethyst Chiffon" data-price="180" data-img="images/saree6.png">Select Options</button>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <h3>Amethyst Chiffon</h3>
+                        <p class="price">$180.00</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-padding">
+            <div class="about-grid">
+                <div class="about-text fade-up">
+                    <h2 style="font-size:3rem; margin-bottom:1rem;">THE <br>PHILOSOPHY</h2>
+                    <p style="color:#aaa; font-size:1.1rem; max-width:400px;">Noir Ethos strips away the excess. We focus solely on raw silk, geometric lines, and monochromatic contrasts punctuated with metallic threads. This is heritage brutalism.</p>
+                </div>
+                <div class="about-image fade-up" style="transition-delay:0.2s;">
+                    <img src="images/about-saree.png" alt="Abstract Weaving">
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="section-padding testimonials" style="background: #0a0a0a; border-top: 1px solid #222;">
+            <div class="section-title fade-up">
+                <h2>The <span style="color: var(--accent-color);">Archive</span> Speaks</h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="testimonials-grid" style="padding: 0 10%;">
+                <div class="testimonial-dark fade-up">
+                    <div class="stars" style="color: var(--accent-color); margin-bottom: 1rem;">★★★★★</div>
+                    <p style="color:#aaa; font-style:italic; margin-bottom:1.5rem;">"The brutalist aesthetic of these pieces is unmatched. Absolutely exquisite draping."</p>
+                    <h4 style="color:#fff; text-transform:uppercase; letter-spacing:2px; font-size:0.9rem;">— Elise V.</h4>
+                </div>
+                <div class="testimonial-dark fade-up" style="transition-delay: 0.1s">
+                    <div class="stars" style="color: var(--accent-color); margin-bottom: 1rem;">★★★★★</div>
+                    <p style="color:#aaa; font-style:italic; margin-bottom:1.5rem;">"Pure avant-garde elegance. The checkout process was as seamless as the silk."</p>
+                    <h4 style="color:#fff; text-transform:uppercase; letter-spacing:2px; font-size:0.9rem;">— Clara M.</h4>
+                </div>
+                <div class="testimonial-dark fade-up" style="transition-delay: 0.2s">
+                    <div class="stars" style="color: var(--accent-color); margin-bottom: 1rem;">★★★★★</div>
+                    <p style="color:#aaa; font-style:italic; margin-bottom:1.5rem;">"A phenomenal addition to my wardrobe. Shipping was remarkably fast."</p>
+                    <h4 style="color:#fff; text-transform:uppercase; letter-spacing:2px; font-size:0.9rem;">— Sofia T.</h4>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter & Contact -->
+        <section id="contact" class="contact section-padding" style="background: #050505; text-align:center;">
+             <div class="newsletter-content fade-up" style="max-width: 500px; margin: 0 auto;">
+                <h2 style="text-transform:uppercase; letter-spacing:4px; margin-bottom:1rem;">Join The Society</h2>
+                <p style="color:#888; margin-bottom: 2rem;">Exclusive drops. No spam.</p>
+                <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Subscribed successfully!');" style="display:flex; gap:10px;">
+                    <input type="email" placeholder="YOUR EMAIL" required class="pay-input" style="background:transparent; color:#fff; border-bottom:1px solid #444;">
+                    <button type="submit" class="btn btn-primary" style="padding: 0 2rem;">&#8594;</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content" style="display:flex; justify-content:space-between; align-items:flex-end;">
+            <div class="footer-brand">
+                <h2 style="font-family:'Cinzel', serif; letter-spacing:2px; font-size:2rem; margin:0;">NOIR.</h2>
+            </div>
+            <div class="footer-links" style="display:flex; gap:2rem;">
+                <a href="#" style="font-size:0.8rem; letter-spacing:1px; color:#888; text-transform:uppercase;">Shipping</a>
+                <a href="#" style="font-size:0.8rem; letter-spacing:1px; color:#888; text-transform:uppercase;">Returns</a>
+                <a href="#" style="font-size:0.8rem; letter-spacing:1px; color:#888; text-transform:uppercase;">Privacy</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cart Sidebar -->
+    <div class="cart-sidebar" id="cart-sidebar">
+        <div class="cart-header">
+            <h3 style="font-family:'Cinzel';">THE CART</h3>
+            <button class="close-cart" id="close-cart">&times;</button>
+        </div>
+        <div class="cart-items" id="cart-items">
+            <!-- Items injected by JS -->
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span style="font-family:'Cinzel';">TOTAL</span>
+                <span id="cart-total-price" style="color:var(--accent-color);">$0.00</span>
+            </div>
+            <button class="btn btn-primary" id="checkout-btn" style="width: 100%; margin-top: 1rem;">SECURE CHECKOUT</button>
+        </div>
+    </div>
+    <div class="cart-overlay" id="cart-overlay"></div>
+
+    <!-- Payment Gateway Modal Simulation -->
+    <div class="payment-modal" id="payment-modal">
+        <div class="payment-content" style="max-height: 90vh; overflow-y: auto;">
+            <div class="payment-header">
+                <h3 style="font-family:'Cinzel';">CHECKOUT</h3>
+                <button class="close-payment" id="close-payment">&times;</button>
+            </div>
+            <div class="payment-body" id="payment-body">
+                <p style="text-transform:uppercase; font-size:0.8rem; color:#888;">Delivery Details</p>
+                <div class="payment-form" style="margin-top: 1rem; margin-bottom: 2rem;">
+                    <input type="text" placeholder="FULL NAME" class="pay-input" required>
+                    <input type="text" placeholder="SHIPPING ADDRESS" class="pay-input" required>
+                    <div class="pay-row" style="display:flex; gap:10px;">
+                        <input type="text" placeholder="CITY" class="pay-input" required>
+                        <input type="text" placeholder="ZIP CODE" class="pay-input" required>
+                    </div>
+                    <input type="tel" placeholder="PHONE NUMBER" class="pay-input" required>
+                </div>
+                
+                <p style="text-transform:uppercase; font-size:0.8rem; color:#888;">Payment Method</p>
+                <div class="payment-methods" style="display:flex; gap:10px; margin: 1rem 0;">
+                    <button class="pay-btn active cc-btn">CREDIT CARD</button>
+                    <button class="pay-btn upi-btn">UPI / GPAY</button>
+                </div>
+                <div class="payment-form" id="payment-form">
+                    <input type="text" placeholder="CARD NUMBER" class="pay-input">
+                    <div class="pay-row" style="display:flex; gap:10px;">
+                        <input type="text" placeholder="MM/YY" class="pay-input">
+                        <input type="text" placeholder="CVC" class="pay-input">
+                    </div>
+                </div>
+                <button class="btn btn-primary" id="process-pay-btn" style="width: 100%; margin-top: 2rem;">AUTHORIZE PAYMENT</button>
+            </div>
+            <div class="payment-success" id="payment-success" style="display: none; padding:3rem; text-align:center;">
+                <h3 style="color: var(--accent-color); font-family:'Cinzel'; margin-bottom:1rem;">TRANSACTION COMPLETE</h3>
+                <p style="color: #aaa; margin-bottom:2rem;">Your archive piece has been reserved.</p>
+                <button class="btn btn-secondary" id="continue-shopping" style="width: 100%;">RETURN HOME</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quick View Modal -->
+    <div class="quickview-modal" id="quickview-modal">
+        <div class="quickview-content">
+            <button class="close-quickview" id="close-quickview">&times;</button>
+            <div class="quickview-grid">
+                <div class="quickview-img">
+                    <img src="" alt="Product" id="qv-img">
+                </div>
+                <div class="quickview-info">
+                    <h2 id="qv-title" style="font-family:'Cinzel'; text-transform:uppercase; letter-spacing:2px;">Product</h2>
+                    <p class="qv-price" id="qv-price" style="color:var(--accent-color); font-size:1.5rem; margin-bottom:1rem;">$0</p>
+                    <p class="qv-desc" style="color:#888; font-size:0.9rem; line-height:1.6; margin-bottom:1.5rem;">Avant-garde draped silhouette. Ethical luxury crafted with obsessive attention to geometric forms and shadow play.</p>
+                    
+                    <div class="qv-options" style="border-top:1px solid #333; padding-top:1rem; margin-top:1rem;">
+                        <div style="margin-bottom: 1rem;">
+                            <label for="qv-blouse" style="display:block; margin-bottom:0.5rem; text-transform:uppercase; font-size:0.8rem; color:#888;">Blouse Construction</label>
+                            <select id="qv-blouse" class="pay-input" style="width:100%;">
+                                <option value="Unstitched" data-price="0">Raw Material (Included)</option>
+                                <option value="Stitched" data-price="25">Architectural Stitch (+$25.00)</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="qv-fall" style="display:block; margin-bottom:0.5rem; text-transform:uppercase; font-size:0.8rem; color:#888;">Hemming / Pico</label>
+                            <select id="qv-fall" class="pay-input" style="width:100%;">
+                                <option value="Yes" data-price="5">Required (+$5.00)</option>
+                                <option value="No" data-price="0">Leave Raw</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <button class="btn btn-primary" id="qv-add-cart" style="width: 100%; margin-top: 2rem;">ACQUIRE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
